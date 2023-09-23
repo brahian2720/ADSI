@@ -5,6 +5,8 @@
 
 package com.mycompany.adsi;
 
+import Vistas.Gestion;
+
 /**
  *
  * @author ADMIN
@@ -12,6 +14,9 @@ package com.mycompany.adsi;
 public class ADSI {
     
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        Gestion objetogestion = new Gestion();
+        objetogestion.set(true);
+        
     }
 }
